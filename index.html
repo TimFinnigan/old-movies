@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Old Movies</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Old Movies</h1>
+    <input id="search" type="search" placeholder="Search title, year or director" aria-label="Search films">
+  </header>
+
+  <main>
+    <div id="grid" class="grid"></div>
+    <p id="empty" class="empty" hidden>No films match your search.</p>
+  </main>
+
+  <dialog id="details">
+    <button id="close" aria-label="Close">&times;</button>
+    <div id="details-body"></div>
+  </dialog>
+
+  <script src="movies.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
