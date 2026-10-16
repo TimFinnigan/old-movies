@@ -124,6 +124,16 @@ main { max-width: 1280px; margin: 0 auto; padding: 1rem 2rem 6rem; }
 
 .empty { color: var(--muted); font-size: 1.25rem; }
 
+footer {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem 3rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+footer a { color: inherit; }
+
 dialog {
   background: var(--bg);
   color: var(--fg);
