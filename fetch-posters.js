@@ -37,7 +37,9 @@ async function tmdb(endpoint, params) {
   return res.json();
 }
 
-const MOVIES = new Function(`${fs.readFileSync(path.join(root, "movies.js"), "utf8")}; return MOVIES;`)();
+const MOVIES = ["movies.js", "dad-movies.js"].flatMap((name) =>
+  new Function(`${fs.readFileSync(path.join(root, name), "utf8")}; return MOVIES;`)()
+);
 
 (async () => {
   fs.mkdirSync(path.join(root, "posters"), { recursive: true });
