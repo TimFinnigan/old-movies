@@ -141,4 +141,11 @@ const MOVIES = [
     poster: "posters/lawrence-of-arabia.jpg",
     blurb: "A British officer unites Arab tribes against the Ottoman Empire in David Lean's desert epic.",
   },
+  {
+    title: "Bullitt",
+    year: 1968,
+    director: "Peter Yates",
+    poster: "posters/bullitt.jpg",
+    blurb: "A San Francisco detective, played by Steve McQueen, protects a witness in a thriller famous for its car chase.",
+  },
 ];

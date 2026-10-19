@@ -2,11 +2,32 @@
 // "poster" is where the downloaded poster image is saved (posters/ folder).
 const MOVIES = [
   {
+    title: "It Happened One Night",
+    year: 1934,
+    director: "Frank Capra",
+    poster: "posters/it-happened-one-night.jpg",
+    blurb: "A runaway heiress and a newspaper reporter fall in love on a road trip.",
+  },
+  {
     title: "Shall We Dance",
     year: 1937,
     director: "Mark Sandrich",
     poster: "posters/shall-we-dance.jpg",
     blurb: "Fred Astaire and Ginger Rogers dance through a mistaken-identity romance.",
+  },
+  {
+    title: "A Christmas Carol",
+    year: 1938,
+    director: "Edwin L. Marin",
+    poster: "posters/a-christmas-carol.jpg",
+    blurb: "A miserly old man is visited by three ghosts on Christmas Eve.",
+  },
+  {
+    title: "The Adventures of Robin Hood",
+    year: 1938,
+    director: "Michael Curtiz, William Keighley",
+    poster: "posters/the-adventures-of-robin-hood.jpg",
+    blurb: "Errol Flynn stars as the outlaw who robs the rich to help the poor and defies the Sheriff of Nottingham.",
   },
   {
     title: "Mr. Smith Goes to Washington",
@@ -42,6 +63,20 @@ const MOVIES = [
     director: "Frank Capra",
     poster: "posters/its-a-wonderful-life.jpg",
     blurb: "An angel shows a despairing man what the world would be like without him.",
+  },
+  {
+    title: "Miracle on 34th Street",
+    year: 1947,
+    director: "George Seaton",
+    poster: "posters/miracle-on-34th-street.jpg",
+    blurb: "A department store Santa claims to be the real thing, and a court must decide.",
+  },
+  {
+    title: "Born Yesterday",
+    year: 1950,
+    director: "George Cukor",
+    poster: "posters/born-yesterday.jpg",
+    blurb: "A tycoon hires a journalist to educate his uncultured girlfriend, with unexpected results.",
   },
   {
     title: "High Noon",
@@ -100,6 +135,20 @@ const MOVIES = [
     blurb: "A rancher escorts an outlaw to the train that will take him to prison.",
   },
   {
+    title: "An Affair to Remember",
+    year: 1957,
+    director: "Leo McCarey",
+    poster: "posters/an-affair-to-remember.jpg",
+    blurb: "Two strangers fall in love on an ocean liner and agree to meet again atop the Empire State Building.",
+  },
+  {
+    title: "The Bridge on the River Kwai",
+    year: 1957,
+    director: "David Lean",
+    poster: "posters/the-bridge-on-the-river-kwai.jpg",
+    blurb: "British prisoners of war are forced to build a railway bridge for their Japanese captors.",
+  },
+  {
     title: "Twelve Angry Men",
     year: 1957,
     director: "Sidney Lumet",
@@ -140,6 +189,13 @@ const MOVIES = [
     director: "Alfred Hitchcock",
     poster: "posters/north-by-northwest.jpg",
     blurb: "An advertising man is mistaken for a spy and chased across the country.",
+  },
+  {
+    title: "The Horse Soldiers",
+    year: 1959,
+    director: "John Ford",
+    poster: "posters/the-horse-soldiers.jpg",
+    blurb: "A Union cavalry raid goes deep behind Confederate lines during the Civil War.",
   },
   {
     title: "The Magnificent Seven",
@@ -275,6 +331,13 @@ const MOVIES = [
     blurb: "A football player is taken to heaven too soon and returns in another man's body.",
   },
   {
+    title: "Breaking Away",
+    year: 1979,
+    director: "Peter Yates",
+    poster: "posters/breaking-away.jpg",
+    blurb: "A young cyclist in Indiana dreams of racing like the Italians and takes on the college kids in a big race.",
+  },
+  {
     title: "An Officer and a Gentleman",
     year: 1982,
     director: "Taylor Hackford",
@@ -308,6 +371,13 @@ const MOVIES = [
     director: "Lawrence Kasdan",
     poster: "posters/silverado.jpg",
     blurb: "Four men team up to take on a corrupt sheriff in the Old West.",
+  },
+  {
+    title: "Hoosiers",
+    year: 1986,
+    director: "David Anspaugh",
+    poster: "posters/hoosiers.jpg",
+    blurb: "A small-town Indiana high school basketball team chases a state championship under a new coach.",
   },
   {
     title: "Dances with Wolves",
@@ -352,11 +422,39 @@ const MOVIES = [
     blurb: "A family's rafting trip turns deadly when armed fugitives force them downriver.",
   },
   {
+    title: "The Shawshank Redemption",
+    year: 1994,
+    director: "Frank Darabont",
+    poster: "posters/the-shawshank-redemption.jpg",
+    blurb: "A banker wrongly convicted of murder forms a lasting friendship in prison and never gives up hope.",
+  },
+  {
+    title: "Jerry Maguire",
+    year: 1996,
+    director: "Cameron Crowe",
+    poster: "posters/jerry-maguire.jpg",
+    blurb: "A sports agent loses his job and his way, then bets everything on one loyal client.",
+  },
+  {
     title: "Saving Private Ryan",
     year: 1998,
     director: "Steven Spielberg",
     poster: "posters/saving-private-ryan.jpg",
     blurb: "A squad of soldiers is sent behind enemy lines to bring one man home.",
+  },
+  {
+    title: "The Horse Whisperer",
+    year: 1998,
+    director: "Robert Redford",
+    poster: "posters/the-horse-whisperer.jpg",
+    blurb: "A horse whisperer helps a girl and her horse recover from a terrible accident.",
+  },
+  {
+    title: "Gladiator",
+    year: 2000,
+    director: "Ridley Scott",
+    poster: "posters/gladiator.jpg",
+    blurb: "A betrayed Roman general is forced into slavery and fights as a gladiator to avenge his family.",
   },
   {
     title: "The Passion of the Christ",
@@ -380,6 +478,13 @@ const MOVIES = [
     blurb: "Bond hunts those responsible for the death of someone he loved.",
   },
   {
+    title: "The Artist",
+    year: 2011,
+    director: "Michel Hazanavicius",
+    poster: "posters/the-artist.jpg",
+    blurb: "A silent film star struggles as talkies arrive while a rising young actress takes his place.",
+  },
+  {
     title: "Skyfall",
     year: 2012,
     director: "Sam Mendes",
@@ -399,6 +504,13 @@ const MOVIES = [
     director: "Ridley Scott",
     poster: "posters/the-martian.jpg",
     blurb: "An astronaut stranded on Mars must find a way to survive.",
+  },
+  {
+    title: "La La Land",
+    year: 2016,
+    director: "Damien Chazelle",
+    poster: "posters/la-la-land.jpg",
+    blurb: "A jazz pianist and an aspiring actress chase their dreams and fall in love in Los Angeles.",
   },
   {
     title: "No Time to Die",
