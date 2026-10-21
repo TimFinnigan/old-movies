@@ -58,6 +58,13 @@ const MOVIES = [
     blurb: "A detective falls for the portrait of a murder victim, then she turns up alive.",
   },
   {
+    title: "To Have and Have Not",
+    year: 1944,
+    director: "Howard Hawks",
+    poster: "posters/to-have-and-have-not.jpg",
+    blurb: "A fishing boat captain in Martinique is drawn into the French Resistance, and into romance.",
+  },
+  {
     title: "Spellbound",
     year: 1945,
     director: "Alfred Hitchcock",
@@ -79,6 +86,13 @@ const MOVIES = [
     blurb: "A department store Santa claims to be the real thing, and a court must decide.",
   },
   {
+    title: "The Bishop's Wife",
+    year: 1947,
+    director: "Henry Koster",
+    poster: "posters/the-bishops-wife.jpg",
+    blurb: "An angel, played by Cary Grant, answers a bishop's prayer in the weeks before Christmas.",
+  },
+  {
     title: "Born Yesterday",
     year: 1950,
     director: "George Cukor",
@@ -93,11 +107,25 @@ const MOVIES = [
     blurb: "A hunter leads an expedition through the African wilderness in search of a lost explorer and legendary treasure.",
   },
   {
+    title: "An American in Paris",
+    year: 1951,
+    director: "Vincente Minnelli",
+    poster: "posters/an-american-in-paris.jpg",
+    blurb: "An American painter in Paris is torn between two women, set to Gershwin's music.",
+  },
+  {
     title: "High Noon",
     year: 1952,
     director: "Fred Zinnemann",
     poster: "posters/high-noon.jpg",
     blurb: "A marshal faces a gang of killers alone as the town turns its back, with Gary Cooper in the lead.",
+  },
+  {
+    title: "Singin' in the Rain",
+    year: 1952,
+    director: "Gene Kelly, Stanley Donen",
+    poster: "posters/singin-in-the-rain.jpg",
+    blurb: "A silent film star and his sweetheart navigate Hollywood's switch to talkies.",
   },
   {
     title: "From Here to Eternity",
@@ -380,6 +408,13 @@ const MOVIES = [
     blurb: "Two New York detectives pursue a heroin smuggling ring in a gritty thriller with a famous car chase.",
   },
   {
+    title: "The Heartbreak Kid",
+    year: 1972,
+    director: "Elaine May",
+    poster: "posters/the-heartbreak-kid.jpg",
+    blurb: "A newlywed abandons his bride on their honeymoon to pursue another woman.",
+  },
+  {
     title: "American Graffiti",
     year: 1973,
     director: "George Lucas",
@@ -504,6 +539,13 @@ const MOVIES = [
     director: "David Anspaugh",
     poster: "posters/hoosiers.jpg",
     blurb: "A small-town Indiana high school basketball team chases a state championship under a new coach.",
+  },
+  {
+    title: "Moonstruck",
+    year: 1987,
+    director: "Norman Jewison",
+    poster: "posters/moonstruck.jpg",
+    blurb: "A Brooklyn widow falls for her fiance's brother under a full moon.",
   },
   {
     title: "No Way Out",
@@ -632,6 +674,13 @@ const MOVIES = [
     blurb: "A German businessman saves more than a thousand Jews during the Holocaust.",
   },
   {
+    title: "Sleepless in Seattle",
+    year: 1993,
+    director: "Nora Ephron",
+    poster: "posters/sleepless-in-seattle.jpg",
+    blurb: "A widower's young son calls a radio show, and a Baltimore reporter becomes intrigued.",
+  },
+  {
     title: "The Fugitive",
     year: 1993,
     director: "Andrew Davis",
@@ -644,6 +693,20 @@ const MOVIES = [
     director: "Phillip Noyce",
     poster: "posters/clear-and-present-danger.jpg",
     blurb: "Jack Ryan uncovers a secret operation against a Colombian drug cartel ordered from inside the White House.",
+  },
+  {
+    title: "It Could Happen to You",
+    year: 1994,
+    director: "Andrew Bergman",
+    poster: "posters/it-could-happen-to-you.jpg",
+    blurb: "A cop promises a waitress half of his lottery ticket winnings, and keeps his word.",
+  },
+  {
+    title: "Legends of the Fall",
+    year: 1994,
+    director: "Edward Zwick",
+    poster: "posters/legends-of-the-fall.jpg",
+    blurb: "Three brothers and the woman who comes between them are shaped by love and war on a Montana ranch.",
   },
   {
     title: "Speed",
@@ -702,6 +765,20 @@ const MOVIES = [
     blurb: "Hijackers take over the President's plane, and he fights back from on board.",
   },
   {
+    title: "City of Angels",
+    year: 1998,
+    director: "Brad Silberling",
+    poster: "posters/city-of-angels.jpg",
+    blurb: "An angel falls in love with a surgeon and must decide whether to give up eternity for her.",
+  },
+  {
+    title: "Meet Joe Black",
+    year: 1998,
+    director: "Martin Brest",
+    poster: "posters/meet-joe-black.jpg",
+    blurb: "Death takes human form to learn about life and falls for a media tycoon's daughter.",
+  },
+  {
     title: "Saving Private Ryan",
     year: 1998,
     director: "Steven Spielberg",
@@ -728,6 +805,13 @@ const MOVIES = [
     director: "Ridley Scott",
     poster: "posters/gladiator.jpg",
     blurb: "A betrayed Roman general is forced into slavery and fights as a gladiator to avenge his family.",
+  },
+  {
+    title: "Something's Gotta Give",
+    year: 2003,
+    director: "Nancy Meyers",
+    poster: "posters/somethings-gotta-give.jpg",
+    blurb: "An aging playboy falls for the mother of his girlfriend.",
   },
   {
     title: "The Last Samurai",
